@@ -1,0 +1,3 @@
+target "demoCTMediator" do
+pod "CTMediator"
+end

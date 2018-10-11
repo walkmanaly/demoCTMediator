@@ -43,12 +43,14 @@
     if (indexPath.row == 0) {
         UIViewController *vc = [CTMediator pushVc];
         [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.row == 1) {
+        [CTMediator presentVc];
     }
 }
 
 - (NSArray *)dataSource {
     if (!_dataSource) {
-        _dataSource = @[@"pushVC"];
+        _dataSource = @[@"pushVC", @"presentVC"];
     }
     return _dataSource;
 }

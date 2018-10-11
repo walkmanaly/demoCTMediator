@@ -14,9 +14,17 @@
 - (UIViewController *)Action_pushController:(NSDictionary *)dict {
     NSLog(@"%@", dict);
     PushViewController *vc = [[PushViewController alloc] init];
+    vc.data = dict;
     vc.titleLabel.text = dict[@"name"];
     return vc;
     
+}
+
+- (void)Action_presentController:(NSDictionary *)dict {
+    NSLog(@"%@", dict);
+    PushViewController *vc = [[PushViewController alloc] init];
+    vc.titleLabel.text = dict[@"age"];
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:vc animated:YES completion:nil];
 }
 
 @end

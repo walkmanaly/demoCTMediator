@@ -25,4 +25,13 @@ static  NSString *kActionPresentController = @"presentController";
     }
 }
 
++ (void)presentVc {
+    [[CTMediator sharedInstance] performTarget:kTarget action:kActionPresentController params:@{@"age": @"18"} shouldCacheTarget:NO];
+//    if ([presentVc isKindOfClass:[UIViewController class]]) {
+//        return presentVc;
+//    } else {
+//        return nil;
+//    }
+}
+
 @end

@@ -10,9 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PushViewController : UIViewController
+@interface HomeViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *imagee;
+
+@property (nonatomic, strong) NSDictionary *sendData;
 
 @end
 

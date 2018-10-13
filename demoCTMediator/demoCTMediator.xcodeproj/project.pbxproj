@@ -18,8 +18,14 @@
 		01ECD071216EDC8B00B2C557 /* demoCTMediatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ECD070216EDC8B00B2C557 /* demoCTMediatorUITests.m */; };
 		01ECD082216EDE9100B2C557 /* CTMediator+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ECD081216EDE9100B2C557 /* CTMediator+ModuleA.m */; };
 		01ECD086216EE04400B2C557 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ECD085216EE04400B2C557 /* Target_A.m */; };
-		01ECD08B216EE61F00B2C557 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ECD089216EE61F00B2C557 /* PushViewController.m */; };
-		01ECD08C216EE61F00B2C557 /* PushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01ECD08A216EE61F00B2C557 /* PushViewController.xib */; };
+		01ECD08B216EE61F00B2C557 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ECD089216EE61F00B2C557 /* HomeViewController.m */; };
+		01ECD08C216EE61F00B2C557 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01ECD08A216EE61F00B2C557 /* HomeViewController.xib */; };
+		01ECD0902171C1AF00B2C557 /* Target_Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ECD08F2171C1AF00B2C557 /* Target_Home.m */; };
+		01ECD0992171C47F00B2C557 /* CTMediator+ModuleHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ECD0982171C47F00B2C557 /* CTMediator+ModuleHome.m */; };
+		01ECD09D2171CE9700B2C557 /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ECD09B2171CE9700B2C557 /* HomeDetailViewController.m */; };
+		01ECD09E2171CE9700B2C557 /* HomeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01ECD09C2171CE9700B2C557 /* HomeDetailViewController.xib */; };
+		01ECD0A02171DD7700B2C557 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 01ECD09F2171DD7700B2C557 /* test.png */; };
+		01ECD0A22171DED800B2C557 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 01ECD0A12171DED700B2C557 /* noimage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +66,18 @@
 		01ECD081216EDE9100B2C557 /* CTMediator+ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleA.m"; sourceTree = "<group>"; };
 		01ECD084216EE04400B2C557 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
 		01ECD085216EE04400B2C557 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
-		01ECD088216EE61F00B2C557 /* PushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
-		01ECD089216EE61F00B2C557 /* PushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
-		01ECD08A216EE61F00B2C557 /* PushViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PushViewController.xib; sourceTree = "<group>"; };
+		01ECD088216EE61F00B2C557 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		01ECD089216EE61F00B2C557 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		01ECD08A216EE61F00B2C557 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		01ECD08E2171C1AF00B2C557 /* Target_Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Home.h; sourceTree = "<group>"; };
+		01ECD08F2171C1AF00B2C557 /* Target_Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Home.m; sourceTree = "<group>"; };
+		01ECD0972171C47F00B2C557 /* CTMediator+ModuleHome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleHome.h"; sourceTree = "<group>"; };
+		01ECD0982171C47F00B2C557 /* CTMediator+ModuleHome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleHome.m"; sourceTree = "<group>"; };
+		01ECD09A2171CE9700B2C557 /* HomeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeDetailViewController.h; sourceTree = "<group>"; };
+		01ECD09B2171CE9700B2C557 /* HomeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeDetailViewController.m; sourceTree = "<group>"; };
+		01ECD09C2171CE9700B2C557 /* HomeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeDetailViewController.xib; sourceTree = "<group>"; };
+		01ECD09F2171DD7700B2C557 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		01ECD0A12171DED700B2C557 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
 		3177595C22DFA5CB6663070F /* Pods-demoCTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoCTMediator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demoCTMediator/Pods-demoCTMediator.debug.xcconfig"; sourceTree = "<group>"; };
 		92A8046113A938423A799EBF /* libPods-demoCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-demoCTMediator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B62B3B3A78BFAF840760D8F /* Pods-demoCTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoCTMediator.release.xcconfig"; path = "Pods/Target Support Files/Pods-demoCTMediator/Pods-demoCTMediator.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,9 +134,9 @@
 		01ECD04B216EDC8700B2C557 /* demoCTMediator */ = {
 			isa = PBXGroup;
 			children = (
-				01ECD087216EE60300B2C557 /* PushVc */,
-				01ECD083216EE02500B2C557 /* ModulA */,
-				01ECD07F216EDE5300B2C557 /* CTMediator+catagries */,
+				01ECD087216EE60300B2C557 /* HomeModuleVCs */,
+				01ECD0922171C25800B2C557 /* Moduls_Catergry */,
+				01ECD0912171C1DC00B2C557 /* Moduls_Targets */,
 				01ECD07E216EDC9B00B2C557 /* Supporting Files */,
 				01ECD04C216EDC8700B2C557 /* AppDelegate.h */,
 				01ECD04D216EDC8700B2C557 /* AppDelegate.m */,
@@ -152,6 +167,8 @@
 		01ECD07E216EDC9B00B2C557 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				01ECD0A12171DED700B2C557 /* noimage.png */,
+				01ECD09F2171DD7700B2C557 /* test.png */,
 				01ECD052216EDC8700B2C557 /* Main.storyboard */,
 				01ECD055216EDC8A00B2C557 /* Assets.xcassets */,
 				01ECD057216EDC8A00B2C557 /* LaunchScreen.storyboard */,
@@ -161,13 +178,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		01ECD07F216EDE5300B2C557 /* CTMediator+catagries */ = {
+		01ECD07F216EDE5300B2C557 /* CTMediator+ModuleA */ = {
 			isa = PBXGroup;
 			children = (
 				01ECD080216EDE9100B2C557 /* CTMediator+ModuleA.h */,
 				01ECD081216EDE9100B2C557 /* CTMediator+ModuleA.m */,
 			);
-			name = "CTMediator+catagries";
+			name = "CTMediator+ModuleA";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		01ECD083216EE02500B2C557 /* ModulA */ = {
@@ -179,14 +197,53 @@
 			path = ModulA;
 			sourceTree = "<group>";
 		};
-		01ECD087216EE60300B2C557 /* PushVc */ = {
+		01ECD087216EE60300B2C557 /* HomeModuleVCs */ = {
 			isa = PBXGroup;
 			children = (
-				01ECD088216EE61F00B2C557 /* PushViewController.h */,
-				01ECD089216EE61F00B2C557 /* PushViewController.m */,
-				01ECD08A216EE61F00B2C557 /* PushViewController.xib */,
+				01ECD088216EE61F00B2C557 /* HomeViewController.h */,
+				01ECD089216EE61F00B2C557 /* HomeViewController.m */,
+				01ECD08A216EE61F00B2C557 /* HomeViewController.xib */,
+				01ECD09A2171CE9700B2C557 /* HomeDetailViewController.h */,
+				01ECD09B2171CE9700B2C557 /* HomeDetailViewController.m */,
+				01ECD09C2171CE9700B2C557 /* HomeDetailViewController.xib */,
 			);
-			path = PushVc;
+			path = HomeModuleVCs;
+			sourceTree = "<group>";
+		};
+		01ECD08D2171C18100B2C557 /* ModulHome */ = {
+			isa = PBXGroup;
+			children = (
+				01ECD08E2171C1AF00B2C557 /* Target_Home.h */,
+				01ECD08F2171C1AF00B2C557 /* Target_Home.m */,
+			);
+			path = ModulHome;
+			sourceTree = "<group>";
+		};
+		01ECD0912171C1DC00B2C557 /* Moduls_Targets */ = {
+			isa = PBXGroup;
+			children = (
+				01ECD08D2171C18100B2C557 /* ModulHome */,
+				01ECD083216EE02500B2C557 /* ModulA */,
+			);
+			path = Moduls_Targets;
+			sourceTree = "<group>";
+		};
+		01ECD0922171C25800B2C557 /* Moduls_Catergry */ = {
+			isa = PBXGroup;
+			children = (
+				01ECD0932171C44300B2C557 /* CTMediator+ModuleHome */,
+				01ECD07F216EDE5300B2C557 /* CTMediator+ModuleA */,
+			);
+			path = Moduls_Catergry;
+			sourceTree = "<group>";
+		};
+		01ECD0932171C44300B2C557 /* CTMediator+ModuleHome */ = {
+			isa = PBXGroup;
+			children = (
+				01ECD0972171C47F00B2C557 /* CTMediator+ModuleHome.h */,
+				01ECD0982171C47F00B2C557 /* CTMediator+ModuleHome.m */,
+			);
+			path = "CTMediator+ModuleHome";
 			sourceTree = "<group>";
 		};
 		A1058683F96ACE688C306119 /* Pods */ = {
@@ -310,10 +367,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01ECD0A22171DED800B2C557 /* noimage.png in Resources */,
 				01ECD059216EDC8A00B2C557 /* LaunchScreen.storyboard in Resources */,
 				01ECD056216EDC8A00B2C557 /* Assets.xcassets in Resources */,
-				01ECD08C216EE61F00B2C557 /* PushViewController.xib in Resources */,
+				01ECD09E2171CE9700B2C557 /* HomeDetailViewController.xib in Resources */,
+				01ECD08C216EE61F00B2C557 /* HomeViewController.xib in Resources */,
 				01ECD054216EDC8700B2C557 /* Main.storyboard in Resources */,
+				01ECD0A02171DD7700B2C557 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,10 +423,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01ECD0992171C47F00B2C557 /* CTMediator+ModuleHome.m in Sources */,
 				01ECD051216EDC8700B2C557 /* ViewController.m in Sources */,
 				01ECD082216EDE9100B2C557 /* CTMediator+ModuleA.m in Sources */,
-				01ECD08B216EE61F00B2C557 /* PushViewController.m in Sources */,
+				01ECD08B216EE61F00B2C557 /* HomeViewController.m in Sources */,
 				01ECD086216EE04400B2C557 /* Target_A.m in Sources */,
+				01ECD0902171C1AF00B2C557 /* Target_Home.m in Sources */,
+				01ECD09D2171CE9700B2C557 /* HomeDetailViewController.m in Sources */,
 				01ECD05C216EDC8A00B2C557 /* main.m in Sources */,
 				01ECD04E216EDC8700B2C557 /* AppDelegate.m in Sources */,
 			);

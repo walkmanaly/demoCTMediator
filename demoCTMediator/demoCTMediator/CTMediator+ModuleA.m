@@ -8,10 +8,10 @@
 
 #import "CTMediator+ModuleA.h"
 
-static  NSString *kTarget = @"A";
+NSString *const kTarget = @"A";
 
-static  NSString *kActionPushController = @"pushController";
-static  NSString *kActionPresentController = @"presentController";
+NSString * const kActionPushController = @"pushController";
+NSString * const kActionPresentController = @"presentController";
 
 @implementation CTMediator (ModuleA)
 

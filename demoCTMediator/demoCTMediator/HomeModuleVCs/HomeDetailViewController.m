@@ -1,0 +1,33 @@
+//
+//  HomeDetailViewController.m
+//  demoCTMediator
+//
+//  Created by Nick on 2018/10/13.
+//  Copyright © 2018 Nick. All rights reserved.
+//
+
+#import "HomeDetailViewController.h"
+
+@interface HomeDetailViewController ()
+
+@end
+
+@implementation HomeDetailViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+    self.title = self.dict[@"home"];
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

@@ -7,23 +7,24 @@
 //
 
 #import "Target_A.h"
-#import "PushViewController.h"
+#import "HomeViewController.h"
 
 @implementation Target_A
 
 - (UIViewController *)Action_pushController:(NSDictionary *)dict {
     NSLog(@"%@", dict);
-    PushViewController *vc = [[PushViewController alloc] init];
-    vc.data = dict;
-    vc.titleLabel.text = dict[@"name"];
+    HomeViewController *vc = [[HomeViewController alloc] init];
+//    vc.data = dict;
+    // viewdidload之后设置控件的属性才有效。。。
+//    vc.titleLabel.text = dict[@"name"];
     return vc;
     
 }
 
 - (void)Action_presentController:(NSDictionary *)dict {
     NSLog(@"%@", dict);
-    PushViewController *vc = [[PushViewController alloc] init];
-    vc.titleLabel.text = dict[@"age"];
+    HomeViewController *vc = [[HomeViewController alloc] init];
+//    vc.titleLabel.text = dict[@"age"];
     [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:vc animated:YES completion:nil];
 }
 
